@@ -1,6 +1,7 @@
 package com.lucascampos.studend.service;
 
 import com.lucascampos.studend.model.Student;
+import com.lucascampos.studend.model.Subject;
 import com.lucascampos.studend.repository.StudentRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Sort;
@@ -31,3 +32,4 @@ public class StudentService {
         return list();
     }
 }
+
